@@ -13,10 +13,13 @@
 
 
 ## deleting a container
+First this will list all your containers
 ```docker ps -a```
+Then...
 ```docker rm -f <id>```
 
 ## deleting an image
 To delete an image you need to first delete connected containers running
 ```docker images```
-```docker rmi <id>```
+The -f flag force the container deletion
+```docker rmi -f <id>```
