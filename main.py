@@ -19,7 +19,7 @@ def randomPort():
     return randint(1000, 9000)
 
 
-target_ip = 'yoomoney.ru'
+target_ip = ''
 fake_ip = '217.107.219.57'
 # port can be 443 or 80 check if the website has https
 port = 443
