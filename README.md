@@ -4,4 +4,4 @@
 ```docker build -t imagename .```
 
 ### run image detached
-````docker run -d imagename```
+```docker run -d imagename```
