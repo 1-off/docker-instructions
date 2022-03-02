@@ -2,7 +2,7 @@
 import socket
 import threading
 
-target = 'yoomoney.ru'
+target = ''
 fake_ip = '217.107.219.57'
 port = 443
 # check before how many cores you have and use about 25% of max thread available
